@@ -1,4 +1,4 @@
-@viewModel WeekPlanner.ViewModels.DefaultViewModel, WeekPlanner
+﻿@viewModel WeekPlanner.ViewModels.DefaultViewModel, WeekPlanner
 
 <!DOCTYPE html>
 
@@ -11,5 +11,7 @@
 
 	<h1>{{value: Title}}</h1>
 
+    <dot:Button Text="Click me" Events.Click="ButtonPress()" />
+    <dot:Literal Text="{value: something}" />
 </body>
 </html>
